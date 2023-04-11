@@ -1,0 +1,2 @@
+/* Determinar la media de una lista de numeros positivos terminada 
+con un numero no positivo despues del ultimo numero valido. */
