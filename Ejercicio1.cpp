@@ -4,10 +4,10 @@ de numeros positvos, terminando con un numero negativo. */
 #include <iostream>
 using namespace std;
 
-    void calcMedia();
+    void ejercicio1();
     bool evaluarNum(int num);
 
-    void calcMedia(){
+    void ejercicio1(){
         int num = 0, suma = 0, cantNum = 0;
         float media = 0;
 
@@ -22,7 +22,6 @@ using namespace std;
         }   
         media = suma/cantNum;
         cout<<"La media es "<<media;
-
     }
 
     bool evaluarNum(int num){
