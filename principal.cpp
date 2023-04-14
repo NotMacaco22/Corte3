@@ -27,36 +27,43 @@ int main()
     case 1:
         system("cls");
         ejercicio1();
+        menu();
         break;
 
     case 2:
         system("cls");
         ejercicio2();
+        menu();
         break;
     
     case 3:
         system("cls");
         ejercicio3();
+        menu();
         break;
     
     case 4:
         system("cls");
         ejercicio4();
+        menu();
         break;
     
     case 5:
         system("cls");
         ejercicio5();
+        menu();
         break;
     
     case 6:
         system("cls");
         ejercicio6();
+        menu();
         break;
 
     case 7:
         system("cls");
         ejercicio7();
+        menu();
         break;
 
     default:
@@ -89,6 +96,8 @@ void menu(){
     default:
         system("cls");
         cout<<"Opcion no valida, intente de nuevo.";
+        cout<<endl;
+        menu();
         break;
     }
     
